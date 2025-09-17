@@ -1,6 +1,7 @@
 package lab1;
 
 import lab1.task1.TaskFirst;
+import lab1.task2.TaskSecond;
 
 import java.util.Scanner;
 
@@ -16,7 +17,7 @@ public class LaboratoryWork1 {
             }
             break;
             case "2": {
-
+                new TaskSecond(in);
             }
             break;
             default: {
